@@ -48,7 +48,7 @@ public class DriverInstance{
 			desiredCap.setBrowserName("firefox");
 			desiredCap.setPlatform(Platform.LINUX);
 			firefoxOptions.merge(desiredCap);
-			remoteWebdriver.set(new RemoteWebDriver(new URL("http://20.235.244.38:4444/wd/hub"), firefoxOptions));
+			remoteWebdriver.set(new RemoteWebDriver(new URL("http://20.244.105.136:4444/wd/hub"), firefoxOptions));
 			break;
 		case "edge":
 			remoteWebdriver.set(new EdgeDriver());
